@@ -1,0 +1,78 @@
+.centrado {
+    text-align: center;
+    width: 1013px;
+    height: 29.871px;
+    flex-shrink: 0;;}
+
+ol.lista-sin-numero{list-style-type: none;}
+
+.footer-rectangulo {
+    position: relative;
+    width: 1440px;
+    height: 37px;
+    left: 0px;
+    top: 987px;
+    background: #005677;
+  }
+  
+  .instagram-app-icon img {
+    position: absolute; /* Añadido para que 'left' y 'top' funcionen */
+    width: 20px;
+    height: 20px;
+    left: 772px; 
+    top: 996px;   
+    background: url('ico_instagram.png');
+  }
+
+  .linkedin-app-icon img {
+    position: absolute; /* Añadido para que 'left' y 'top' funcionen */
+    width: 20px;
+    height: 20px;
+    left: 818px; 
+    top: 996px;   
+    background: url(ico_linkedin.png);
+  }
+
+
+  .contacto {
+    position: absolute;
+    width: 145px;
+    height: 17px;
+    left: 601px;
+    top: 998px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
+    color: #FFFFFF;
+  }
+
+  body {
+    background-color: #E6E6E6; /* Ejemplo de color en formato hexadecimal */
+  }
+
+  .titulo-curriculum {
+    color: rgba(0, 86, 119, 1);
+    font-feature-settings: 'cpsp' on;
+    font-family: Times New Roman;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84.688%; /* 29.641px */
+  }
+  
+  #titulo-principal {
+    font-size: 24px;
+  }
+  
+  
+
+
+
+
+
+
+
+
