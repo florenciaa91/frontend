@@ -1,0 +1,39 @@
+
+/* un selector es la manera en la que llamamos la propiedades de las etiquetas. */
+/* selectores de etiqueta, clase, id */
+
+/* selector{
+    propiedad: valor;
+ } */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+*{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* para que no sume los anchos */
+    text-decoration: none; /* para que los link no tengan el color azul por defecto */
+    list-style: none; /* para que las viñetas no tengan el punto adelante */
+}
+
+/* ! Selector de etiquetas */
+h1{
+    color:red;
+}
+
+
+/* ? Selector de clase */
+.nav{
+    background-color: orange;
+    padding: 15px;
+}
+
+/* & Selector de id */
+#final{
+    background-color: aqua;
+    padding: 15px;
+}
