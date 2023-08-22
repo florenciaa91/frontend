@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Poppins;
+}
+
+
+h1{
+    background-color: rgb(76, 218, 58);
+}
+
+.bg_img{
+    background-image: url("https://stockeros.com/wp-content/uploads/2023/03/Fotos-aesthetic.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+
+p{
+    color: blueviolet;
+    background-color: antiquewhite;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+}
+
+.bg_card_img{
+    width: 100%;
+    height: 50%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1669981123693-8b1f0fb5d4f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGluayUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1400&q=60");
+    background-size: cover;
+    background-position: center;
+}
+
+.texto{
+    padding: 25px;
+}
+
+.texto_header{
+    display: flex;
+    align-items: center;
+}
+
+.bx {
+    font-size: 50px;
+    color: pink;
+}
